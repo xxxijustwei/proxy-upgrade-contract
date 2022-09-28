@@ -1,7 +1,7 @@
 import { HardhatUserConfig } from "hardhat/config"
 import { config as dotenvConfig } from "dotenv"
 import { resolve } from "path"
-import "@nomiclabs/hardhat-etherscan"
+import "@nomicfoundation/hardhat-toolbox"
 import "@openzeppelin/hardhat-upgrades"
 
 const dotenvConfigPath: string = process.env.DOTENV_CONFIG_PATH || "./.env";
