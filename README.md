@@ -7,4 +7,5 @@ npm run build
 npm run clean
 npm run deploy
 npm run upgrade
+npm run test
 ```
